@@ -70,3 +70,55 @@ hr {
     gap: 20px;
     padding: 10px;
 }
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.course {
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.course-banner {
+    display: flex;
+    justify-content: center;
+}
+
+.course img {
+    width: 250px;
+}
+
+.course-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.blog p {
+    color: gray;
+}
+
+.course-duration {
+    background-color: rgb(255, 205, 205);
+    color: rgb(255, 70, 70);
+    border-radius: 10px;
+    padding: 0px 3px;
+}
+
+.fa-star {
+    color: gold;
+}
